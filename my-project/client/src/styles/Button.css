@@ -1,0 +1,39 @@
+.two-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.connexion {
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 0.9rem;
+  color: rgb(27, 90, 27);
+}
+
+.connection-button,
+.visitor-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 20vw;
+  height: 10vh;
+  border-radius: 50px;
+  background-color: #a5d5b5;
+  border: #648a70 solid 2px;
+}
+
+.connection-button:hover,
+.visitor-button:hover {
+  border: rgb(52, 112, 83) solid 2px;
+  background-color: rgb(52, 112, 83);
+}
+.button-text:hover {
+  color: beige;
+}
+
+.button-text {
+  font-size: 0.9rem;
+}
